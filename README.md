@@ -63,8 +63,7 @@ endmodule
 ```
 TEST
 ```
-module test_4bit; reg [3:0] A;
-reg [3:0] B; reg C0; wire [3:0] S; wire C4; module test_4bit;
+module test_4bit; 
 reg [3:0] A;
 reg [3:0] B; reg C0; wire [3:0] S; wire C4;
 fulladd_4bit dut (A,B,C0,S,C4); initial
